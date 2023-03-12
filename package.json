@@ -16,6 +16,5 @@
 		"express",
 		"freecodecamp"
 	],
-	"license": "MIT",
-    "type": "module"
+	"license": "MIT"
 }

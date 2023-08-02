@@ -6,7 +6,7 @@ const app = express();
 const ninetyDaysInSeconds = 90 * 24 * 60 * 60
 
 app.use(helmet.hidePoweredBy())
-// app.use(helmet.frameguard({action: 'deny'}))
+app.use(helmet.frameguard({action: 'deny'}))
 // app.use(helmet.xssFilter())
 // app.use(helmet.noSniff())
 // app.use(helmet.ieNoOpen())
